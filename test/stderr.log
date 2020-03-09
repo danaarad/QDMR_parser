@@ -1,0 +1,135 @@
+0it [00:00, ?it/s]
+187it [00:00, 1802.41it/s]
+424it [00:00, 1725.35it/s]
+691it [00:00, 1915.54it/s]
+951it [00:00, 2075.44it/s]
+1199it [00:00, 2178.99it/s]
+1421it [00:00, 2187.03it/s]
+1687it [00:00, 2293.70it/s]
+1948it [00:00, 2376.14it/s]
+2240it [00:00, 2510.02it/s]
+2489it [00:01, 2069.63it/s]
+2726it [00:01, 2151.25it/s]
+3023it [00:01, 2334.03it/s]
+3296it [00:01, 2421.34it/s]
+3583it [00:01, 2527.33it/s]
+3889it [00:01, 2646.75it/s]
+4162it [00:01, 2670.67it/s]
+4434it [00:01, 1941.85it/s]
+4692it [00:02, 2094.50it/s]
+4964it [00:02, 2230.58it/s]
+5221it [00:02, 2322.23it/s]
+5489it [00:02, 2397.07it/s]
+5753it [00:02, 2459.74it/s]
+6047it [00:02, 2576.63it/s]
+6312it [00:02, 1925.85it/s]
+6597it [00:02, 2118.68it/s]
+6847it [00:03, 2201.59it/s]
+7129it [00:03, 2337.41it/s]
+7415it [00:03, 2449.41it/s]
+7700it [00:03, 2550.67it/s]
+7965it [00:03, 2538.93it/s]
+8260it [00:03, 2631.24it/s]
+8529it [00:03, 1876.09it/s]
+8827it [00:03, 2096.25it/s]
+9088it [00:03, 2219.21it/s]
+9356it [00:04, 2339.22it/s]
+9615it [00:04, 2397.75it/s]
+9869it [00:04, 2432.56it/s]
+10122it [00:04, 1868.05it/s]
+10336it [00:04, 1619.92it/s]
+10523it [00:04, 1625.49it/s]
+10703it [00:04, 1645.80it/s]
+10880it [00:04, 1672.13it/s]
+11083it [00:05, 1761.18it/s]
+11267it [00:05, 1744.92it/s]
+11447it [00:05, 1046.37it/s]
+11605it [00:05, 1163.48it/s]
+11752it [00:05, 1239.14it/s]
+11899it [00:05, 1219.57it/s]
+12062it [00:05, 1316.56it/s]
+12211it [00:06, 1361.67it/s]
+12366it [00:06, 1407.59it/s]
+12525it [00:06, 1451.89it/s]
+12715it [00:06, 1553.88it/s]
+12877it [00:06, 1571.52it/s]
+13039it [00:06, 1553.65it/s]
+13200it [00:06, 1566.04it/s]
+13374it [00:06, 1612.84it/s]
+13555it [00:06, 1653.31it/s]
+13722it [00:06, 1490.95it/s]
+13876it [00:07, 1397.79it/s]
+14020it [00:07, 1313.58it/s]
+14163it [00:07, 1343.53it/s]
+14301it [00:07, 1300.90it/s]
+14434it [00:07, 1238.56it/s]
+14561it [00:07, 1171.43it/s]
+14706it [00:07, 1241.59it/s]
+14857it [00:07, 1304.74it/s]
+15005it [00:08, 1341.44it/s]
+15147it [00:08, 1351.82it/s]
+15284it [00:08, 1344.64it/s]
+15430it [00:08, 1362.76it/s]
+15568it [00:08, 787.04it/s] 
+15708it [00:08, 905.32it/s]
+15852it [00:08, 1015.03it/s]
+16018it [00:08, 1141.52it/s]
+16172it [00:09, 1236.83it/s]
+16323it [00:09, 1299.06it/s]
+16466it [00:09, 1311.85it/s]
+16624it [00:09, 1367.73it/s]
+16768it [00:09, 1313.81it/s]
+16905it [00:09, 1268.93it/s]
+17043it [00:09, 1293.64it/s]
+17176it [00:09, 1257.53it/s]
+17335it [00:09, 1338.37it/s]
+17511it [00:10, 1439.18it/s]
+17697it [00:10, 1542.96it/s]
+17857it [00:10, 1484.63it/s]
+18010it [00:10, 1276.01it/s]
+18146it [00:10, 1173.36it/s]
+18271it [00:10, 921.83it/s] 
+18380it [00:10, 960.92it/s]
+18486it [00:10, 979.92it/s]
+18591it [00:11, 999.24it/s]
+18697it [00:11, 1007.40it/s]
+18803it [00:11, 1016.47it/s]
+18916it [00:11, 1045.55it/s]
+19033it [00:11, 1078.77it/s]
+19146it [00:11, 1082.38it/s]
+19256it [00:11, 1075.57it/s]
+19373it [00:11, 1098.05it/s]
+19484it [00:11, 1090.81it/s]
+Traceback (most recent call last):
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Dana Arad\Anaconda3\envs\qdmr_parser\Scripts\allennlp.exe\__main__.py", line 7, in <module>
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\run.py", line 18, in run
+    main(prog="allennlp")
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\commands\__init__.py", line 102, in main
+    args.func(args)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\commands\train.py", line 124, in train_model_from_args
+    args.cache_prefix)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\commands\train.py", line 168, in train_model_from_file
+    cache_directory, cache_prefix)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\commands\train.py", line 226, in train_model
+    cache_prefix)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\training\trainer_pieces.py", line 42, in from_params
+    all_datasets = training_util.datasets_from_params(params, cache_directory, cache_prefix)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\training\util.py", line 178, in datasets_from_params
+    train_data = dataset_reader.read(train_data_path)
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\data\dataset_readers\dataset_reader.py", line 134, in read
+    instances = [instance for instance in Tqdm.tqdm(instances)]
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\data\dataset_readers\dataset_reader.py", line 134, in <listcomp>
+    instances = [instance for instance in Tqdm.tqdm(instances)]
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\tqdm\std.py", line 1108, in __iter__
+    for obj in iterable:
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\site-packages\allennlp\data\dataset_readers\seq2seq.py", line 81, in _read
+    for line_num, row in enumerate(csv.reader(data_file, delimiter=self._delimiter)):
+  File "c:\users\dana arad\anaconda3\envs\qdmr_parser\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 6535: character maps to <undefined>
+19484it [00:12, 1579.69it/s]
+

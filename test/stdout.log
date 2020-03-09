@@ -1,0 +1,33 @@
+2020-03-09 13:46:05,886 - INFO - allennlp.common.params - random_seed = 13370
+2020-03-09 13:46:05,886 - INFO - allennlp.common.params - numpy_seed = 1337
+2020-03-09 13:46:05,887 - INFO - allennlp.common.params - pytorch_seed = 133
+2020-03-09 13:46:05,906 - INFO - allennlp.common.checks - Pytorch version: 1.4.0
+2020-03-09 13:46:05,909 - INFO - allennlp.common.params - evaluate_on_test = False
+2020-03-09 13:46:05,910 - INFO - allennlp.common.params - validation_dataset_reader = None
+2020-03-09 13:46:05,917 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.dataset_readers.dataset_reader.DatasetReader'> from params {'type': 'seq2seq', 'source_token_indexers': {'tokens': {'type': 'single_id', 'namespace': 'source_tokens'}}, 'target_token_indexers': {'tokens': {'type': 'single_id', 'namespace': 'target_tokens'}}} and extras set()
+2020-03-09 13:46:05,919 - INFO - allennlp.common.params - dataset_reader.type = seq2seq
+2020-03-09 13:46:05,921 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.dataset_readers.seq2seq.Seq2SeqDatasetReader'> from params {'source_token_indexers': {'tokens': {'type': 'single_id', 'namespace': 'source_tokens'}}, 'target_token_indexers': {'tokens': {'type': 'single_id', 'namespace': 'target_tokens'}}} and extras set()
+2020-03-09 13:46:05,922 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.token_indexer.TokenIndexer'> from params {'type': 'single_id', 'namespace': 'source_tokens'} and extras set()
+2020-03-09 13:46:05,926 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2020-03-09 13:46:05,927 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.single_id_token_indexer.SingleIdTokenIndexer'> from params {'namespace': 'source_tokens'} and extras set()
+2020-03-09 13:46:05,929 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2020-03-09 13:46:05,929 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2020-03-09 13:46:05,930 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.start_tokens = None
+2020-03-09 13:46:05,931 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.end_tokens = None
+2020-03-09 13:46:05,931 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.token_min_padding_length = 0
+2020-03-09 13:46:05,932 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.token_indexer.TokenIndexer'> from params {'type': 'single_id', 'namespace': 'target_tokens'} and extras set()
+2020-03-09 13:46:05,938 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.type = single_id
+2020-03-09 13:46:05,939 - INFO - allennlp.common.from_params - instantiating class <class 'allennlp.data.token_indexers.single_id_token_indexer.SingleIdTokenIndexer'> from params {'namespace': 'target_tokens'} and extras set()
+2020-03-09 13:46:05,940 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.namespace = target_tokens
+2020-03-09 13:46:05,941 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.lowercase_tokens = False
+2020-03-09 13:46:05,942 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.start_tokens = None
+2020-03-09 13:46:05,943 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.end_tokens = None
+2020-03-09 13:46:05,944 - INFO - allennlp.common.params - dataset_reader.target_token_indexers.tokens.token_min_padding_length = 0
+2020-03-09 13:46:05,950 - INFO - allennlp.common.params - dataset_reader.source_add_start_token = True
+2020-03-09 13:46:05,951 - INFO - allennlp.common.params - dataset_reader.delimiter = 	
+2020-03-09 13:46:05,952 - INFO - allennlp.common.params - dataset_reader.source_max_tokens = None
+2020-03-09 13:46:05,952 - INFO - allennlp.common.params - dataset_reader.target_max_tokens = None
+2020-03-09 13:46:05,953 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2020-03-09 13:46:06,181 - INFO - allennlp.common.params - train_data_path = data/train.tsv
+2020-03-09 13:46:06,184 - INFO - allennlp.training.util - Reading training data from data/train.tsv
+2020-03-09 13:46:06,191 - INFO - allennlp.data.dataset_readers.seq2seq - Reading instances from lines in file at: data/train.tsv

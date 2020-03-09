@@ -28,8 +28,8 @@
         "type": "embedding",
         "embedding_dim": 150,
         "vocab_namespace": "source_tokens",
-        "trainable": true,
-      },
+        "trainable": true
+      }
     },
 
     "encoder": {
@@ -55,7 +55,7 @@
   "trainer": {
     "num_epochs": 25,
     "patience": 10,
-    "cuda_device": 0,
+    "cuda_device": -1,
     "optimizer": {
       "type": "adam",
       "lr": 0.01
