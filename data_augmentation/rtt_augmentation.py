@@ -5,7 +5,7 @@ from google.cloud import translate
 
 # General Settings
 PROJECT_ID = "qdmr-parsing"
-INPUT_FILE = "train1.tsv"
+INPUT_FILE = "original_train.csv"
 INPUT_FILE_ID_INDEX = 0
 INPUT_FILE_QUESTION_INDEX = 1
 
@@ -15,8 +15,10 @@ NUM_OF_SAMPLES_FOR_LANG_TEST = 50
 ENGLISH_LANG_CODE = "en"
 TARGET_LANGS_TO_TEST = ["he", "de", "ru", "ja"]
 
-# generating new samples using german as the first options and japanese as the fallback
-NEW_TRAINING_SAMPLES_FILE = "new_samples.tsv"
+# Part 2 - generating new samples using german
+#  as the first options and japanese as the fallback
+NEW_TRAIN_FILE = "train.tsv"
+NEW_TRAINING_SAMPLES_FULL_FILE = "new_samples_full.tsv"
 STATS_FILE = "stats.csv"
 TARGET_LANG = "de"
 FALLBACK_TARGET_LANG = "ja"
@@ -68,7 +70,7 @@ def get_random_question_from_file(file_name):
 def generate_multi_langs_samples():
     translator = Translator(PROJECT_ID)
     with open(LANG_TEST_FILE, "w") as output_file:
-        writer = csv.writer(output_file, delimiter='\t')
+        writer = csv.writer(output_file)
         for i in range(NUM_OF_SAMPLES_FOR_LANG_TEST):
             print(i)
             question_id, question = get_random_question_from_file(INPUT_FILE)
@@ -82,17 +84,15 @@ def generate_multi_langs_samples():
 def generate_new_data_samples_with_rtt():
     translator = Translator(PROJECT_ID)
     input_file = open(INPUT_FILE)
+    full_output_file = open(NEW_TRAINING_SAMPLES_FULL_FILE)
     current_row_number = 0
     fallback_usage = 0
     fallback_fail = 0
     try:
-        with open(NEW_TRAINING_SAMPLES_FILE, "w") as output_file:
-            reader = csv.reader(input_file, delimiter='\t')
-            writer = csv.writer(output_file, delimiter='\t')
+        with open(NEW_TRAIN_FILE, "w") as train_file:
+            reader = csv.reader(input_file)
+            writer = csv.writer(train_file, delimiter='\t')
             for row in reader:
-                if current_row_number <= 9527:
-                    current_row_number += 1
-                    continue
                 print("attempting row {}".format(current_row_number))
 
                 question_id = row[INPUT_FILE_ID_INDEX]
